@@ -70,8 +70,15 @@ In this module, you will be writing a small piece of code in Python to be used i
 
 - Save by going to the file menu and selecting **Save** to save the changes.
 - Choose **Deploy** to deploy the changes.
+-  Choose the orange **Test** button to create a test event by selecting **Configure test event**.
 
 
+![Screenshot 2022-12-24 at 09 59 01](https://user-images.githubusercontent.com/50238769/209426795-e74bb9d5-41a2-4313-8e3c-762cd26e9c94.png)
 
+- Under **Event name**, enter *RemainderTestEvent*.
+- Copy and paste the following JSON object to replace the default one:
+
+
+![Screenshot 2022-12-24 at 10 00 57](https://user-images.githubusercontent.com/50238769/209426847-52928698-8353-4682-8bb3-c8587012d760.png)
 
 
