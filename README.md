@@ -29,9 +29,15 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 - In the **Get Started** section, under **Host your web app**, choose the orange **Get started** button.
 - Select **GitHub**. This is what you should see on the screen:
 
-
-
 ![Screenshot 2022-12-24 at 09 14 18](https://user-images.githubusercontent.com/50238769/209425599-e8f1eb76-69ea-4acc-b6bc-8757a97501db.png)
+
+- Choose the **Continue** button and authenticate and authorise your GitHub account when prompted.
+- Select your Repo in the dropdown and click the **Next** button. This is what you should see on the screen. 
+
+# Come back and confirm if selecting the tick box is correct
+![Screenshot 2022-12-24 at 09 17 24](https://user-images.githubusercontent.com/50238769/209425757-02d44455-b02d-4994-890b-508a7fc178f4.png)
+
+- Select **continue**, then choose the **Save and deploy** button. After a few seconds, you should see the message *Deployment successfully completed*.
 
 
 
