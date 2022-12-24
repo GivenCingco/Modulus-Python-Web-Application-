@@ -40,13 +40,30 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 - Select **continue**, then choose the **Save and deploy** button. After a few seconds, you should see the message *Deployment successfully completed*.
 
 ### Test your web application
--  Select **Domain Management** in the left navigation menu.
--  Copy and paste the URL displayed in the form into your browser.
+- Select **Domain Management** in the left navigation menu.
+- Copy and paste the URL displayed in the form into your browser.
 
 
 # Module 2: Create a Lambda function
 
 In this module, you will be writing a small piece of code in Python to be used in your web application.You will use [AWS Lambda](https://aws.amazon.com/lambda/?e=gs2020&p=build-a-web-app-two), a compute service that lets you create serverless functions, eliminating the need for you to manage software and hardware. Instead, applications are broken up into individual functions that can be invoked and scaled individually.
+
+
+## Implementation
+
+### Create and configure your Lambda function
+
+- In a new browser tab, log in to the [AWS Lambda console](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions).
+- Make sure you create your **function in the same Region in which you created the web app in the previous module**. You can see this at the very top of the page, next to your account name.
+- Choose the orange **Create function** button.
+- Under **Function name**, enter *RemainderFunction*.
+- Select **Python 3.8** from the **runtime** dropdown and leave the rest of the defaults unchanged.
+
+![Screenshot 2022-12-24 at 09 49 59](https://user-images.githubusercontent.com/50238769/209426597-e7c07a2b-f8cc-4f70-a4c2-dd412222f83b.png)
+
+- Choose the orange **Create function** button.
+- You should see a green message box at the top of your screen with the following message "Successfully created the function **RemainderFunction**."
+- Under **Code source**, replace the code in **lambda_function.py** with the following:
 
 
 
