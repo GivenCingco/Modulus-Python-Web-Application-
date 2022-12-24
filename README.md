@@ -85,3 +85,7 @@ In this module, you will be writing a small piece of code in Python to be used i
 -  Choose the orange **Create** button at the bottom of the page.
 
 
+# Module 3: Link a Serverless Function to your Web App
+In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gateway/?e=gs2020&p=build-a-web-app-three) to create a RESTful API that will allow us to make calls to our Lambda function from a web client (typically refers to a user's web browser). API Gateway will act as a middle layer between the HTML client we created in module one and the serverless backend we created in module two.
+
+
