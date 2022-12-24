@@ -79,7 +79,8 @@ In this module, you will be writing a small piece of code in Python to be used i
 - Copy and paste the following JSON object to replace the default one:
 
 
-![Screenshot 2022-12-24 at 10 00 57](https://user-images.githubusercontent.com/50238769/209426847-52928698-8353-4682-8bb3-c8587012d760.png)
+![Screenshot 2022-12-24 at 10 02 22](https://user-images.githubusercontent.com/50238769/209426903-43a7dd49-4296-44bb-b69e-a6ed47e0d336.png)
+
 
 -  Choose the orange **Create** button at the bottom of the page.
 
