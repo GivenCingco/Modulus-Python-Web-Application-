@@ -88,4 +88,87 @@ In this module, you will be writing a small piece of code in Python to be used i
 # Module 3: Link a Serverless Function to your Web App
 In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gateway/?e=gs2020&p=build-a-web-app-three) to create a RESTful API that will allow us to make calls to our Lambda function from a web client (typically refers to a user's web browser). API Gateway will act as a middle layer between the HTML client we created in module one and the serverless backend we created in module two.
 
+## Implementation
+
+### Create REST API
+
+- Login to the [API Gateway console](https://us-east-1.console.aws.amazon.com/apigateway/main/apis?region=us-east-1)
+- In the **Choose an API type** section, find the REST API card and choose the **Build** button on the card.
+- Under **Choose the protocol**, select **REST**.
+- Under **Create new API**, select **New API**.
+- In the **API name** field, enter RemainderAPI.
+- Select **Edge optimized*8 from the **Endpoint Type** dropdown. 
+- Choose the blue **Create API** button. Your settings should look like the accompanying screenshot.
+
+![Screenshot 2022-12-24 at 12 58 23](https://user-images.githubusercontent.com/50238769/209433022-84d6d3d1-6bb1-4733-9960-0c40d0784472.png)
+
+
+### Create a new resource and method
+
+- In the left navigation pane, select **Resources** under **API: HelloWorldAPI**.
+- Ensure the "/" resource is selected.
+- From the **Actions** dropdown menu, select **Create Method**.
+- Select **POST** from the new dropdown that appears, then select the checkmark.
+- Select **Lambda Function** for the **Integration type**.
+- Select the **Lambda Region** you used when making the function (or else you will see a warning box reading "You do not have any Lambda Functions in...").
+- Enter *RemainderFunction* in the **Lambda Function** field.
+- Choose the blue **Save** button.
+- You should see a message letting you know you are giving the API you are creating permission to call your Lambda function. Choose the **OK** button.
+- With the newly created POST method selected, select **Enable CORS** from the **Action** dropdown menu.
+- Leave the POST checkbox selected and choose the blue **Enable CORS and replace existing CORS headers** button.
+
+
+<img width="896" alt="Full Stack tutorial ConfirmMethodChanges 06ab437c86819e780eacc2bb2d5847d8f6274648" src="https://user-images.githubusercontent.com/50238769/209433359-e3ca04be-748f-43d2-9432-8b02e2c34cde.png">
+
+
+- You should see a message asking you to confirm method changes. Choose the blue **Yes, replace existing values** button.
+
+
+<img width="939" alt="Full Stack tutorial EnableCORS 5bd0a1c5540ba714abe44a6ffa0c80a3dd58ce16" src="https://user-images.githubusercontent.com/50238769/209433362-3e295934-be6d-4757-a198-8a2865217b20.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
