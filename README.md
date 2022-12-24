@@ -20,6 +20,8 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 
 ## Implementation
 
-### 1. Create a repo on [Github](https://docs.github.com/en/get-started/quickstart/create-a-repo) and upload all your project files to that repo.
+### 1. Create a repo on Github
+
+ - Create your repo on [Github](https://docs.github.com/en/get-started/quickstart/create-a-repo) and upload all your project files to that repo.
 
 
