@@ -39,6 +39,14 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 
 - Select **continue**, then choose the **Save and deploy** button. After a few seconds, you should see the message *Deployment successfully completed*.
 
+### Test your web application
+-  Select **Domain Management** in the left navigation menu.
+-  Copy and paste the URL displayed in the form into your browser.
+
+
+
+
+
 
 
 
