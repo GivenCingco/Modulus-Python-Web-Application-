@@ -14,3 +14,12 @@ The AWS services used in this application are AWS Amplify, Amazon API Gateway, A
 
 Some code was re-used from this AWS walk-through:  https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/
 
+# Module 1 : Create a Web App
+
+In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) to deploy the static resources for your web application. All of your static web content - including HTML, CSS, JavaScript, images, and other files - will be hosted by AWS Amplify. We selected the Amplify service because it makes it straightforward to host and deploy static websites. Your end users will access your site using the URL exposed by Amplify.
+
+## Implementation
+
+### 1. Create a repo on [Github](https://docs.github.com/en/get-started/quickstart/create-a-repo) and upload all your project files to that repo.
+
+
