@@ -155,6 +155,9 @@ In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gate
 ![Screenshot 2022-12-24 at 13 35 35](https://user-images.githubusercontent.com/50238769/209434165-382e8875-6ca5-4125-8be7-cecbd90dfcdf.png)
 
 
+# Module 4 : Create a Data Table
+In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dynamodb/?e=gs2020&p=build-a-web-app-four) table and enable your Lambda function to store data in it. Additionally, we will use the [AWS Identity and Access Management (IAM) service](https://aws.amazon.com/iam/?e=gs2020&p=build-a-web-app-four) to securely give our services the required permissions to interact with each other. Specifically, we are going to allow the Lambda function we created in module two to write to our newly created DynamoDB table using an IAM policy.
+
 
 
 
