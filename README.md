@@ -127,6 +127,16 @@ In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gate
 <img width="939" alt="Full Stack tutorial EnableCORS 5bd0a1c5540ba714abe44a6ffa0c80a3dd58ce16" src="https://user-images.githubusercontent.com/50238769/209433362-3e295934-be6d-4757-a198-8a2865217b20.png">
 
 
+### Deploy API
+
+- In the Actions dropdown list, select **Deploy API**.
+- Select **[New Stage]** in the **Deployment stage** dropdown list.
+- Enter dev for the **Stage Name**.
+- Choose **Deploy**.
+- Copy and save the URL next to **Invoke URL** (you will need it in module five).
+
+
+![Screenshot 2022-12-24 at 13 24 38](https://user-images.githubusercontent.com/50238769/209433697-aa674e5c-14c8-4e57-9001-13f57660e438.png)
 
 
 
