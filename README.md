@@ -44,6 +44,11 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 -  Copy and paste the URL displayed in the form into your browser.
 
 
+# Module 2: Create a Lambda function
+
+In this module, you will be writing a small piece of code in Python to be used in your web application.You will use [AWS Lambda](https://aws.amazon.com/lambda/?e=gs2020&p=build-a-web-app-two), a compute service that lets you create serverless functions, eliminating the need for you to manage software and hardware. Instead, applications are broken up into individual functions that can be invoked and scaled individually.
+
+
 
 
 
