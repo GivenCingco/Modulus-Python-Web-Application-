@@ -66,7 +66,10 @@ In this module, you will be writing a small piece of code in Python to be used i
 - Under **Code source**, replace the code in **lambda_function.py** with the following:
 
 
+![Screenshot 2022-12-24 at 09 54 53](https://user-images.githubusercontent.com/50238769/209426682-99ad00bd-7284-43ef-812f-0321cc24334e.png)
 
+- Save by going to the file menu and selecting **Save** to save the changes.
+- Choose **Deploy** to deploy the changes.
 
 
 
