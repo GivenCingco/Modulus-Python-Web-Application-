@@ -20,8 +20,13 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 
 ## Implementation
 
-### 1. Create a repo on Github
+###  Create a repo on Github
 
  - Create your repo on [Github](https://docs.github.com/en/get-started/quickstart/create-a-repo) and upload all your project files to that repo.
+
+### Create a web with Amplify console
+- In a new browser window, log into the [Amplify console](https://us-east-1.console.aws.amazon.com/amplify/home?region=us-east-1#/). Note: We will be using the N. Virginia (us-east-1) Region for this tutorial.
+
+
 
 
