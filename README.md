@@ -26,6 +26,12 @@ In this module, you will use the [AWS Amplify](https://aws.amazon.com/amplify/) 
 
 ### Create a web with Amplify console
 - In a new browser window, log into the [Amplify console](https://us-east-1.console.aws.amazon.com/amplify/home?region=us-east-1#/). Note: We will be using the N. Virginia (us-east-1) Region for this tutorial.
+- In the **Get Started** section, under **Host your web app**, choose the orange **Get started** button.
+- Select **GitHub**. This is what you should see on the screen:
+
+
+
+![Screenshot 2022-12-24 at 09 14 18](https://user-images.githubusercontent.com/50238769/209425599-e8f1eb76-69ea-4acc-b6bc-8757a97501db.png)
 
 
 
