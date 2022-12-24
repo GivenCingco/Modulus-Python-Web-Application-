@@ -78,8 +78,9 @@ In this module, you will be writing a small piece of code in Python to be used i
 - Under **Event name**, enter *RemainderTestEvent*.
 - Copy and paste the following JSON object to replace the default one:
 
+![Screenshot 2022-12-24 at 13 33 06](https://user-images.githubusercontent.com/50238769/209434084-9de4511f-b0fd-4eba-a20a-f25bffed7635.png)
 
-![Screenshot 2022-12-24 at 10 02 22](https://user-images.githubusercontent.com/50238769/209426903-43a7dd49-4296-44bb-b69e-a6ed47e0d336.png)
+
 
 
 -  Choose the orange **Create** button at the bottom of the page.
@@ -139,14 +140,19 @@ In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gate
 ![Screenshot 2022-12-24 at 13 24 38](https://user-images.githubusercontent.com/50238769/209433697-aa674e5c-14c8-4e57-9001-13f57660e438.png)
 
 
+### Validate API
+- In the left navigation pane, select **Resources**.
+- The methods for our API will now be listed on the right. Choose **POST**.
+- Choose the small blue lightning bolt.
+- Paste the following into the **Request Body** field:
+![Screenshot 2022-12-24 at 13 35 02](https://user-images.githubusercontent.com/50238769/209434152-6953c7ac-e2ee-4177-b5df-5633a3ef1dbb.png)
 
 
 
+- Choose the blue **Test** button.
+- On the right side, you should see a response with **Code 200.
 
-
-
-
-
+![Screenshot 2022-12-24 at 13 35 35](https://user-images.githubusercontent.com/50238769/209434165-382e8875-6ca5-4125-8be7-cecbd90dfcdf.png)
 
 
 
