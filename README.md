@@ -159,6 +159,22 @@ In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gate
 In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dynamodb/?e=gs2020&p=build-a-web-app-four) table and enable your Lambda function to store data in it. Additionally, we will use the [AWS Identity and Access Management (IAM) service](https://aws.amazon.com/iam/?e=gs2020&p=build-a-web-app-four) to securely give our services the required permissions to interact with each other. Specifically, we are going to allow the Lambda function we created in module two to write to our newly created DynamoDB table using an IAM policy.
 
 
+## Implementation
+
+### Create a DynamoDB table
+
+- Log in to the Amazon [DynamoDB console].(https://us-east-1.console.aws.amazon.com/dynamodbv2/home?region=us-east-1)
+- Make sure you create your table in the same Region in which you created the web app in the previous module. You can see this at the very top of the page, next to your account name.
+- Choose the orange **Create table** button.
+- Under **Table name**, enter RemainderDatabase.
+- In the **Partition key** field, enter ID. The partition key is part of the table's primary key.
+- Leave the rest of the default values unchanged and choose the orange **Create table** button.
+- In the list of tables, select the table name, *RemainderDatabase.
+- In the **General information** section, show **Additional info** by selecting the down arrow.
+- Copy the **Amazon Resource Name (ARN)**. You will need it later in this module.
+
+
+
 
 
 
