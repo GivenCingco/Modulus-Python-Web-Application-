@@ -212,7 +212,7 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 
 
 
-
+### Congratulations! You now have a working web app deployed by Amplify console that can call a Lambda function via API Gateway.
 
 
 
