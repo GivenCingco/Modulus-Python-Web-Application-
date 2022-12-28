@@ -184,6 +184,7 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 - Select the **JSON** tab.
 - Paste the following policy in the text area, taking care to replace your table's ARN in the Resource field in line 15:
 
+### Please note: It would be simpler to simply add the dynamoDb full access policy 'AmazonDynamoDBFullAccess', which provides full access to Amazon DynamoDB via the AWS Management Console, but due to IAM security best practices, we will use least-privilege permission, which means that when you set permissions with IAM policies, grant only the permissions required to perform a task.
 
 ![Screenshot 2022-12-28 at 14 56 28](https://user-images.githubusercontent.com/50238769/209815827-06baea3a-4dcb-45a8-a7a6-c8a82cea143a.png)
 
