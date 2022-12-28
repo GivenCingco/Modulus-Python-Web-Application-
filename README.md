@@ -145,6 +145,9 @@ In this module, we will use [Amazon API Gateway](https://aws.amazon.com/api-gate
 - The methods for our API will now be listed on the right. Choose **POST**.
 - Choose the small blue lightning bolt.
 - Paste the following into the **Request Body** field:
+
+
+
 ![Screenshot 2022-12-24 at 13 35 02](https://user-images.githubusercontent.com/50238769/209434152-6953c7ac-e2ee-4177-b5df-5633a3ef1dbb.png)
 
 
