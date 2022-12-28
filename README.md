@@ -201,9 +201,14 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 
 - Test your Lambda function like we did in [Module 2: Create a Lambda function](https://github.com/GivenCingco/Modulus-Python-Web-Application-/blob/main/README.md#module-2-create-a-lambda-function).
 - In a new browser tab, open the [DynamoDB console].(https://us-east-1.console.aws.amazon.com/dynamodbv2/home?region=us-east-1#dashboard)
+- In the left-hand navigation pane, select **Tables > Explore items**.
+- Select *RemainderDatabase*, which we created earlier in this module.
+- Select the **Items** tab on the right.
+- Items matching your test event appear under **Items returned**. 
 
 
 
+![Screenshot 2022-12-28 at 15 22 40](https://user-images.githubusercontent.com/50238769/209819017-b6597e73-9589-4211-ad89-27e89851527c.png)
 
 
 
