@@ -173,6 +173,12 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 - In the **General information** section, show **Additional info** by selecting the down arrow.
 - Copy the **Amazon Resource Name (ARN)**. You will need it later in this module.
 
+### Create and add IAM policy to Lambda function
+
+- Now that we have a table, let's edit our Lambda function to be able to write data to it. In a new browser window, open the [AWS Lambda console](Now that we have a table, let's edit our Lambda function to be able to write data to it. In a new browser window, open the AWS Lambda console).
+- Select the function we created in module two (RemainderFunction). Note: We are using the N. Virginia (us-east-1) Region for this tutorial.
+-
+
 
 
 
