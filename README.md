@@ -197,7 +197,7 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 -  Choose the blue **Create Policy** button.
 
 
-
+## Test the changes
 
 
 
