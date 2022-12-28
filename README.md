@@ -177,7 +177,12 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 
 - Now that we have a table, let's edit our Lambda function to be able to write data to it. In a new browser window, open the [AWS Lambda console](Now that we have a table, let's edit our Lambda function to be able to write data to it. In a new browser window, open the AWS Lambda console).
 - Select the function we created in module two (RemainderFunction). Note: We are using the N. Virginia (us-east-1) Region for this tutorial.
--
+- We'll be adding permissions to our function so it can use the DynamoDB service, and we'll be using AWS Identity and Access Management (IAM) to do so.
+- Select the **Configuration** tab and select **Permissions** from the right side menu.
+- In the **Execution role** box, under **Role name**, choose the link. A new browser tab will open.
+- In the **Permissions policies** box, open the **Add permissions** dropdown and select **Create inline policy**.
+- Select the **JSON** tab.
+- Paste the following policy in the text area, taking care to replace your table's ARN in the Resource field in line 15:
 
 
 
