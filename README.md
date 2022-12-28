@@ -199,6 +199,9 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 
 ## Test the changes
 
+- Test your Lambda function like we did in 'Module 2: Create a Lambda function'.
+- 
+
 
 
 
