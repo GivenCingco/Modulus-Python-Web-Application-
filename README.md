@@ -188,6 +188,11 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 
 ![Screenshot 2022-12-28 at 14 56 28](https://user-images.githubusercontent.com/50238769/209815827-06baea3a-4dcb-45a8-a7a6-c8a82cea143a.png)
 
+- This policy will allow our Lambda function to read, edit, or delete items, but restrict it to only be able to do so in the table we created.
+-  Choose the blue **Review Policy** button.
+-  Next to Name, enter *RemainderAppDynamoPolicy.
+-  Choose the blue **Create Policy** button.
+
 
 
 
