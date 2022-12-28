@@ -12,7 +12,7 @@ In this tutorial, you will build a basic web application. This web application w
 The AWS services used in this application are AWS Amplify, Amazon API Gateway, AWS Lambda, Amazon DynamoDB, and AWS Identity and Access Management (IAM).
 
 
-Some code was re-used from this AWS walk-through:  https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/
+## Some code was re-used from this AWS walk-through:  https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/
 
 # Module 1 : Create a Web App
 
@@ -166,7 +166,7 @@ In this module, you will create an [Amazon DynamoDB](https://aws.amazon.com/dyna
 
 ### Create a DynamoDB table
 
-- Log in to the Amazon [DynamoDB console].(https://us-east-1.console.aws.amazon.com/dynamodbv2/home?region=us-east-1)
+- Log in to the Amazon [DynamoDB console](https://us-east-1.console.aws.amazon.com/dynamodbv2/home?region=us-east-1)
 - Make sure you create your table in the same Region in which you created the web app in the previous module. You can see this at the very top of the page, next to your account name.
 - Choose the orange **Create table** button.
 - Under **Table name**, enter RemainderDatabase.
